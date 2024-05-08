@@ -2,7 +2,7 @@ function Price() {
 
     return (
       <div className="price">
-        Price!
+        Price! and i done commit in price branch!
       </div>
     );
   }
