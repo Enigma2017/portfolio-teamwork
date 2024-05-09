@@ -11,10 +11,10 @@ function Contact() {
           <p className='contact-titles'>Leave us your info</p>
           <form action="#" method="get">
             <label htmlFor="name"> Your Full Name (Required)
-              <input type="text" id="name"/>
+              <input required type="text" id="name"/>
             </label>
             <label htmlFor="email"> Your Email (Required)
-              <input type="email" id="email"/>
+              <input required type="email" id="email"/>
             </label>
             <label htmlFor="subject"> Subject
               <input type="text" id="subject"/>

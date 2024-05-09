@@ -59,9 +59,10 @@
 
       resize: none;
       height: 210px;
+      margin-top: 8px;
     }
     button {
-      display: inline-block;
+      display: flex;
       background: #ffb400;
       padding: 9px 24px;
       max-width: 150px;
@@ -73,6 +74,8 @@
       text-wrap: nowrap;
       border: none;
       outline: none;
+      justify-content: center;
+      cursor: pointer;
     }
   }
 }
