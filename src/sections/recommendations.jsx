@@ -2,7 +2,7 @@ function Recommendations() {
 
     return (
       <div className="recommendations">
-        Working with Recommendations section!
+        Working with Recommendations section
       </div>
     );
   }
