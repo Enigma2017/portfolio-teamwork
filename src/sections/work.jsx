@@ -29,6 +29,7 @@ function Work() {
             </div>
           </div>
         </div>
+        <div className="separator"></div>
         <div className="education__container">
           <div className="education__box">
             <div className="education__title">
@@ -51,6 +52,7 @@ function Work() {
             </div>
           </div>
         </div>
+        <div className="separator"></div>
         <div className="education__container">
           <div className="education__box">
             <div className="education__title">

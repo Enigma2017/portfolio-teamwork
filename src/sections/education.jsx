@@ -75,7 +75,6 @@ function Education() {
             </div>
           </div>
         </div>
-        <div className="separator"></div>
       </section>
     )
   }
