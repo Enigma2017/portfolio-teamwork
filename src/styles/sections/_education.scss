@@ -12,7 +12,7 @@
 
     @include tablet-small {
         grid-template-columns: 1fr;
-            gap: 24rem;
+        gap: 24rem;
         }
         }
 
@@ -45,6 +45,7 @@
     color: var(--card-bg);
     padding: 4rem 7rem;
 }
+
 .education__document {
     font-weight: 500;
     font-size: 18rem;
@@ -53,6 +54,7 @@
     color: var(--main-txt);
     margin-bottom: 28rem;
 }
+
 .education__description {
     font-weight: 400;
     font-size: 15rem;
@@ -60,6 +62,7 @@
     text-transform: capitalize;
     color: var(--secondary-txt);
 }
+
 .title {
     font-weight: 700;
     font-size: 32rem;
@@ -80,11 +83,12 @@
     padding: 0rem 20rem;
     margin-bottom: 50rem;
     margin-top: 25rem;
-    }
-    
-    .separator {
-        width: 95%;
+}
+
+.separator {
+    width: 93%;
         height: 1.5rem;
         margin-top: -20rem;
         background: var(--main-bg);
-    }
+    margin-inline: auto;
+}
