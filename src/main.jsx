@@ -24,7 +24,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <div className="info">
         <InfoSidebar/>
       </div>
-      <main>
+      <main className="main">
         <Hero />
         <Service />
         <Price />

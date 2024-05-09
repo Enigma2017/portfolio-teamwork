@@ -1,8 +1,78 @@
+import DribbbleIcon from "./icons/DribbbleIcon";
+import FacebookIcon from "./icons/FacebookIcon";
+import InstagramIcon from "./icons/InstagramIcon";
+import LinkedinIcon from "./icons/LinkedinIcon";
+import TwitterIcon from "./icons/TwitterIcon";
+import YoutubeIcon from "./icons/YoutubeIcon";
+import ProgressLine from "./progress-line";
+
 function InfoSidebar() {
+  const isOnline = true;
 
   return (
-    <div className="information">
-      information!
+    <div className="sidebar">
+      <div className="sidebar__img">
+        <img src="/src/assets/img/sidebar-info/profile.png" alt="User" />
+        {isOnline && <div className="online-dot"></div>}
+      </div>
+      <h2 className="sidebar__name">Rayan Adlardard</h2>
+      <p className="sidebar__profession">Font-end Developer</p>
+      <div className="sidebar-social">
+        <a className="sidebar-social__icon" href="/">
+          <FacebookIcon />
+        </a>
+        <a className="sidebar-social__icon" href="/">
+          <InstagramIcon />
+        </a>
+        <a className="sidebar-social__icon" href="/">
+          <TwitterIcon />
+        </a>
+        <a className="sidebar-social__icon" href="/">
+          <LinkedinIcon />
+        </a>
+        <a className="sidebar-social__icon" href="/">
+          <YoutubeIcon />
+        </a>
+        <a className="sidebar-social__icon" href="/">
+          <DribbbleIcon />
+        </a>
+      </div>
+      <div className="sidebar-info">
+        <div className="sidebar-info__group">
+          <p className="sidebar-info__title">Age:</p>
+          <p className="sidebar-info__desc">24</p>
+        </div>
+        <div className="sidebar-info__group">
+          <p className="sidebar-info__title">Residence:</p>
+          <p className="sidebar-info__desc">BD</p>
+        </div>
+        <div className="sidebar-info__group">
+          <p className="sidebar-info__title">Freelance:</p>
+          <p className="sidebar-info__desc c-secondary">Available</p>
+        </div>
+        <div className="sidebar-info__group">
+          <p className="sidebar-info__title">Address:</p>
+          <p className="sidebar-info__desc">Dhaka,Bangladesh</p>
+        </div>
+      </div>
+      <div className="sidebar-skills">
+        <h5 className="sidebar-skills__title">Languages</h5>
+        <div className="sidebar-skills__group">
+          <ProgressLine title="Bangla" percentage={100} />
+          <ProgressLine title="English" percentage={80} />
+          <ProgressLine title="Spanish" percentage={60} />
+        </div>
+      </div>
+      <div className="sidebar-skills">
+        <h5 className="sidebar-skills__title">Skills</h5>
+        <div className="sidebar-skills__group">
+          <ProgressLine title="Html" percentage={90} />
+          <ProgressLine title="CSS" percentage={85} />
+          <ProgressLine title="Js" percentage={90} />
+          <ProgressLine title="PHP" percentage={75} />
+          <ProgressLine title="WordPress" percentage={85} />
+        </div>
+      </div>
     </div>
   );
 }
