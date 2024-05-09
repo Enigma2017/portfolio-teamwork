@@ -13,6 +13,8 @@ import Portfolio from './sections/portfolio'
 import Price from './sections/price'
 import Recommendations from './sections/recommendations'
 import Work from './sections/work'
+import Map from './sections/map'
+import Footer from './sections/footer'
 
 import './main.scss'
 
@@ -32,6 +34,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Portfolio />
         <Blog />
         <Contact />
+        <Map />
+        <Footer />
       </main>
       <nav>
           <NavigationSidebar/>
