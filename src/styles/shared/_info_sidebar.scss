@@ -1,4 +1,4 @@
-.sidebar {
+.info-sidebar {
   position: fixed;
   left: 0;
   top: 0;
@@ -10,7 +10,8 @@
   overflow-y: auto;
   background: #fff;
   text-align: center;
-
+  -ms-overflow-style: none;
+  scrollbar-width: none;
   &__img {
     width: 150px;
     height: 150px;
@@ -74,7 +75,7 @@
     }
   }
 
-  &-info {
+  &-date {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -200,4 +201,7 @@
     align-items: center;
     gap: 19px;
   }
+}
+.info-sidebar::-webkit-scrollbar {
+  display: none;
 }

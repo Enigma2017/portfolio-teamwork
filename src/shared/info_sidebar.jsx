@@ -28,62 +28,62 @@ function InfoSidebar() {
   };
 
   return (
-    <div className="sidebar">
-      <div className="sidebar__img">
+    <div className="info-sidebar">
+      <div className="info-sidebar__img">
         <img src="/src/assets/img/sidebar-info/profile.png" alt="User" />
         {isOnline && <div className="online-dot"></div>}
       </div>
-      <h2 className="sidebar__name">Rayan Adlardard</h2>
-      <p className="sidebar__profession">Front-end Developer</p>
-      <div className="sidebar-social">
-        <a className="sidebar-social__icon" href="/">
+      <h2 className="info-sidebar__name">Rayan Adlardard</h2>
+      <p className="info-sidebar__profession">Front-end Developer</p>
+      <div className="info-sidebar-social">
+        <a className="info-sidebar-social__icon" href="/">
           <FacebookIcon />
         </a>
-        <a className="sidebar-social__icon" href="/">
+        <a className="info-sidebar-social__icon" href="/">
           <InstagramIcon />
         </a>
-        <a className="sidebar-social__icon" href="/">
+        <a className="info-sidebar-social__icon" href="/">
           <TwitterIcon />
         </a>
-        <a className="sidebar-social__icon" href="/">
+        <a className="info-sidebar-social__icon" href="/">
           <LinkedinIcon />
         </a>
-        <a className="sidebar-social__icon" href="/">
+        <a className="info-sidebar-social__icon" href="/">
           <YoutubeIcon />
         </a>
-        <a className="sidebar-social__icon" href="/">
+        <a className="info-sidebar-social__icon" href="/">
           <DribbbleIcon />
         </a>
       </div>
-      <div className="sidebar-info">
-        <div className="sidebar-info__group">
-          <p className="sidebar-info__title">Age:</p>
-          <p className="sidebar-info__desc">24</p>
+      <div className="info-sidebar-date">
+        <div className="info-sidebar-date__group">
+          <p className="info-sidebar-date__title">Age:</p>
+          <p className="info-sidebar-date__desc">24</p>
         </div>
-        <div className="sidebar-info__group">
-          <p className="sidebar-info__title">Residence:</p>
-          <p className="sidebar-info__desc">BD</p>
+        <div className="info-sidebar-date__group">
+          <p className="info-sidebar-date__title">Residence:</p>
+          <p className="info-sidebar-date__desc">BD</p>
         </div>
-        <div className="sidebar-info__group">
-          <p className="sidebar-info__title">Freelance:</p>
-          <p className="sidebar-info__desc c-secondary">Available</p>
+        <div className="info-sidebar-date__group">
+          <p className="info-sidebar-date__title">Freelance:</p>
+          <p className="info-sidebar-date__desc c-secondary">Available</p>
         </div>
-        <div className="sidebar-info__group">
-          <p className="sidebar-info__title">Address:</p>
-          <p className="sidebar-info__desc">Dhaka, Bangladesh</p>
+        <div className="info-sidebar-date__group">
+          <p className="info-sidebar-date__title">Address:</p>
+          <p className="info-sidebar-date__desc">Dhaka, Bangladesh</p>
         </div>
       </div>
-      <div className="sidebar-skills">
-        <h5 className="sidebar-skills__title">Languages</h5>
-        <div className="sidebar-skills__group">
+      <div className="info-sidebar-skills">
+        <h5 className="info-sidebar-skills__title">Languages</h5>
+        <div className="info-sidebar-skills__group">
           <ProgressLine title="Bangla" percentage={100} />
           <ProgressLine title="English" percentage={80} />
           <ProgressLine title="Spanish" percentage={60} />
         </div>
       </div>
-      <div className="sidebar-skills">
-        <h5 className="sidebar-skills__title">Skills</h5>
-        <div className="sidebar-skills__group">
+      <div className="info-sidebar-skills">
+        <h5 className="info-sidebar-skills__title">Skills</h5>
+        <div className="info-sidebar-skills__group">
           <ProgressLine title="HTML" percentage={90} />
           <ProgressLine title="CSS" percentage={85} />
           <ProgressLine title="JavaScript" percentage={90} />
@@ -91,19 +91,19 @@ function InfoSidebar() {
           <ProgressLine title="WordPress" percentage={85} />
         </div>
       </div>
-      <div className="sidebar-skills">
-        <h5 className="sidebar-skills__title">Extra Skills</h5>
-        <div className="sidebar-extra-skills">
-          <div className="sidebar-extra-skills__desc">
+      <div className="info-sidebar-skills">
+        <h5 className="info-sidebar-skills__title">Extra Skills</h5>
+        <div className="info-sidebar-extra-skills">
+          <div className="info-sidebar-extra-skills__desc">
             <SkillsIcon /> Bootstrap, Materialize
           </div>
-          <div className="sidebar-extra-skills__desc">
+          <div className="info-sidebar-extra-skills__desc">
             <SkillsIcon /> Stylus, Sass, Less
           </div>
-          <div className="sidebar-extra-skills__desc">
+          <div className="info-sidebar-extra-skills__desc">
             <SkillsIcon /> Gulp, Webpack, Grunt
           </div>
-          <div className="sidebar-extra-skills__desc">
+          <div className="info-sidebar-extra-skills__desc">
             <SkillsIcon /> GIT Knowledge
           </div>
         </div>
