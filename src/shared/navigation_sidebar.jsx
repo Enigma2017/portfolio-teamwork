@@ -1,12 +1,5 @@
-import DarkModeToggle from "./dark_mode"
-
 function NavigationSidebar() {
-  return (
-    <div className="navigation">
-      <DarkModeToggle />
-      navigation!
-    </div>
-  )
+  return <div className="navigation">navigation!</div>
 }
 
 export default NavigationSidebar
