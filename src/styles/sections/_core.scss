@@ -1,10 +1,13 @@
 main {
     max-width: 970px;
     margin-inline: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
-    display: flex;
     margin-inline: auto;
     background-color: #F0F0F6;
+    padding-left: 305px;
+    padding-right: 105px;
 }
