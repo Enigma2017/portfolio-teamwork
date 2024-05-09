@@ -1,11 +1,11 @@
 .recommendations{
+    font-family: var(--font-family);
     &__main-container{
-        font-family: var(--font-family);
         margin-top: 70px;
+        margin-bottom: 70px;
         max-width: 970px;
     }
     &__main-title{
-        font-family: var(--font-family);
         font-weight: 700;
         font-size: 32px;
         line-height: 124%;
@@ -34,9 +34,10 @@
         gap: 27px;
     }
     &__block{
-        width: 310px;
+        max-width: 310px;
         background: #fff;
         padding: 25px 23px 25px 25px;
+        margin-bottom: 50px;
     }
     &__stars{
         max-width: 130px;
@@ -46,7 +47,6 @@
         margin-bottom: 16.63px;
     }
     &__block-title{
-        font-family: var(--font-family);
         font-weight: 500;
         font-size: 18px;
         line-height: 124%;
@@ -55,12 +55,43 @@
         margin-bottom: 18px;
     }
     &__block-desc{
-        font-family: var(--font-family);
         font-weight: 400;
         font-size: 15px;
         line-height: 160%;
         text-transform: capitalize;
         color: #767676;
         margin-bottom: 30px;
+    }
+    &__character{
+        display: flex;
+        justify-content: start;
+        gap: 13px;
+        align-items: center;
+    }
+    &__character-name{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 124%;
+        text-transform: capitalize;
+        color: #2b2b2b;
+        margin-bottom: 5px;
+    }
+    &__character-profession{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+        text-transform: capitalize;
+        color: #767676;
+    }
+    &__footer{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    &__dot{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #ffb400;
     }
 }
