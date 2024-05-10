@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 
 import InfoSidebar from './shared/info_sidebar'
-import NavigationSidebar from './shared/navigation_sidebar'
+import NavigationSidebar from './shared/NavigationSidebar'
 
 import Hero from './sections/hero'
 import Service from './sections/services'

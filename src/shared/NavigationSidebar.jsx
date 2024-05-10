@@ -1,4 +1,4 @@
-function NavigationSidebar() {
+export const NavigationSidebar = () => {
 
   return (
     <div className="navigation">
@@ -6,5 +6,3 @@ function NavigationSidebar() {
     </div>
   );
 }
-
-export default NavigationSidebar;
