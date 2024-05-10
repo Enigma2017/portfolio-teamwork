@@ -2,6 +2,11 @@
   display: flex;
   justify-content: space-between;
 }
+.contact-all-info-block {
+  display: flex;
+  flex-direction: column;
+  height: 888px;
+}
 .contact-titles {
   font-family: var(--font-family);
   font-weight: 700;
@@ -22,6 +27,7 @@
     padding: 25px 25px 35px 25px;
     gap: 25px;
     background: #fff;
+    max-height: 700px;
 
     label {
       display: flex;
@@ -81,6 +87,9 @@
 
 .contact-info {
   width: 38%;
+  display: flex;
+  flex-direction: column;
+  // height: 788px;
 }
 
 .contact-info-image-block {
@@ -123,10 +132,18 @@
 }
 .contact-info-block {
   background: #fff;
-  margin-bottom: 18px;
+  // margin-bottom: 18px;
   padding: 25px 25px 15px 25px;
+  display: flex;
+  flex-direction: column;
 }
 p {
   margin: 0;
   padding: 0;
+}
+.contact-blocks {
+  height: 681px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
