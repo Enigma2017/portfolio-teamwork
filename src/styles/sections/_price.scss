@@ -14,7 +14,7 @@
             font-weight: 700;
             font-size: 32px;
             line-height: 124%;
-            color: #2b2b2b
+            color: var(--main-txt);
         }
         p {
             font-family: var(--font-family);
@@ -22,7 +22,7 @@
             font-size: 15px;
             line-height: 160%;
             text-align: center;
-            color: #767676;
+            color: var(--secondary-txt);
         }
     }
     &__cards {
@@ -32,7 +32,7 @@
             &.popular {
                 padding: 25px 24px 25px 31px;
             }
-            background: #fff;
+            background: var(--main-bg);
             padding: 54px 24px 25px 31px;
             display: flex;
             flex-direction: column;
@@ -50,7 +50,7 @@
                     font-weight: 700;
                     font-size: 32px;
                     line-height: 124%;
-                    color: #2b2b2b;
+                    color: var(--main-txt);;
                     padding-right: 10px;
                 }
                 h4 {
@@ -58,7 +58,7 @@
                     font-weight: 400;
                     font-size: 15px;
                     line-height: 160%;
-                    color: #2b2b2b;
+                    color: var(--main-txt);;
                     text-align: end;
                 }
             }
@@ -67,7 +67,7 @@
                 font-weight: 600;
                 font-size: 24px;
                 line-height: 124%;
-                color: #2b2b2b;
+                color: var(--main-txt);;
             }
             p {
                 font-family: var(--font-family);
@@ -75,7 +75,7 @@
                 font-size: 15px;
                 line-height: 160%;
                 text-align: center;
-                color: #767676;
+                color: var(--secondary-txt);
                 max-width: 248px;
                 padding-bottom: 21px;
             }
@@ -94,7 +94,7 @@
                     font-weight: 500;
                     font-size: 15px;
                     line-height: 160%;
-                    color: #2b2b2b;
+                    color: var(--main-txt);;
                 }
                 &__non-included {
                     font-family: var(--font-family);
@@ -102,14 +102,14 @@
                     font-size: 15px;
                     line-height: 160%;
                     text-transform: capitalize;
-                    color: #767676;
+                    color: var(--secondary-txt);
                 }
             }
             &__pricebtn {
                 margin-top: 21px;
                 border-radius: 30px;
                 box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.15);
-                background: #fff;
+                background: var(--input-bg);
                 border: none;
                 padding: 0;
                 cursor: pointer;
@@ -118,7 +118,7 @@
                 font-weight: 700;
                 font-size: 14px;
                 text-transform: capitalize;
-                color: #2b2b2b;
+                color: var(--main-txt);;
                 padding: 11px 41px;
                 &.popular {
                     background: #ffb400;
@@ -132,7 +132,7 @@
                 font-size: 15px;
                 line-height: 160%;
                 text-transform: capitalize;
-                color: #2b2b2b;
+                color: var(--main-txt);;
                 background: #ffb400;
                 display: flex;
                 text-align: center;

@@ -27,69 +27,72 @@ function Contact() {
         </div>
 
         <div className="contact-info">
-          <p className='contact-titles'>Contact information</p> 
 
-          <div className="contact-info-block">
-            <div className="contact-info-image-block">
-              <img src={Ellipse} alt="" /><img className='contact-info-icon' src={CountryImage} alt="" />
+          <div className="contact-all-info-block">
+            <p className='contact-titles'>Contact information</p> 
+            <div className="contact-blocks">
+            <div className="contact-info-block">
+              <div className="contact-info-image-block">
+                <img src={Ellipse} alt="" /><img className='contact-info-icon' src={CountryImage} alt="" />
+              </div>
+              <div className="contact-info-main">
+                <div className="contact-info-main-block">
+                  <p className='contact-info-title'>Country:</p>
+                  <p className='contact-info-description'>Bangladesh</p>
+                </div>
+                <div className="contact-info-main-block">
+                  <p className='contact-info-title'>City:</p>
+                  <p className='contact-info-description'>Dhaka</p>
+                </div>
+                <div className="contact-info-main-block">
+                  <p className='contact-info-title'>Streat:</p>
+                  <p className='contact-info-description'>35 vhatara, Badda</p>
+                </div>
+              </div>
             </div>
-            <div className="contact-info-main">
-              <div className="contact-info-main-block">
-                <p className='contact-info-title'>Country:</p>
-                <p className='contact-info-description'>Bangladesh</p>
-              </div>
-              <div className="contact-info-main-block">
-                <p className='contact-info-title'>City:</p>
-                <p className='contact-info-description'>Dhaka</p>
-              </div>
-              <div className="contact-info-main-block">
-                <p className='contact-info-title'>Streat:</p>
-                <p className='contact-info-description'>35 vhatara, Badda</p>
-              </div>
-            </div>
-          </div>
 
-          <div className="contact-info-block">
-            <div className="contact-info-image-block">
-              <img src={Ellipse} alt="" /><img className='contact-info-icon' src={EmailImage} alt="" />
+            <div className="contact-info-block">
+              <div className="contact-info-image-block">
+                <img src={Ellipse} alt="" /><img className='contact-info-icon' src={EmailImage} alt="" />
+              </div>
+              <div className="contact-info-main">
+                <div className="contact-info-main-block">
+                  <p className='contact-info-title'>Email:</p>
+                  <p className='contact-info-description'>youremail@gmail.com</p>
+                </div>
+                <div className="contact-info-main-block">
+                  <p className='contact-info-title'>Skype:</p>
+                  <p className='contact-info-description'>@yourusername</p>
+                </div>
+                <div className="contact-info-main-block">
+                  <p className='contact-info-title'>Telegram:</p>
+                  <p className='contact-info-description'>@yourusername</p>
+                </div>
+              </div>
             </div>
-            <div className="contact-info-main">
-              <div className="contact-info-main-block">
-                <p className='contact-info-title'>Email:</p>
-                <p className='contact-info-description'>youremail@gmail.com</p>
-              </div>
-              <div className="contact-info-main-block">
-                <p className='contact-info-title'>Skype:</p>
-                <p className='contact-info-description'>@yourusername</p>
-              </div>
-              <div className="contact-info-main-block">
-                <p className='contact-info-title'>Telegram:</p>
-                <p className='contact-info-description'>@yourusername</p>
-              </div>
-            </div>
-          </div>
 
-          <div className="contact-info-block">
-            <div className="contact-info-image-block">
-              <img src={Ellipse} alt="" /><img className='contact-info-icon' src={SupportImage} alt="" />
+            <div className="contact-info-block">
+              <div className="contact-info-image-block">
+                <img src={Ellipse} alt="" /><img className='contact-info-icon' src={SupportImage} alt="" />
+              </div>
+              <div className="contact-info-main">
+                <div className="contact-info-main-block">
+                  <p className='contact-info-title'>Support services:</p>
+                  <p className='contact-info-description'>15369</p>
+                </div>
+                <div className="contact-info-main-block">
+                  <p className='contact-info-title'>Office:</p>
+                  <p className='contact-info-description'>+58 (021)356 587 235</p>
+                </div>
+                <div className="contact-info-main-block">
+                  <p className='contact-info-title'>Personal:</p>
+                  <p className='contact-info-description'>+58 (021)356 587 235</p>
+                </div>
+                </div>
+              </div>
             </div>
-            <div className="contact-info-main">
-              <div className="contact-info-main-block">
-                <p className='contact-info-title'>Support services:</p>
-                <p className='contact-info-description'>15369</p>
-              </div>
-              <div className="contact-info-main-block">
-                <p className='contact-info-title'>Office:</p>
-                <p className='contact-info-description'>+58 (021)356 587 235</p>
-              </div>
-              <div className="contact-info-main-block">
-                <p className='contact-info-title'>Personal:</p>
-                <p className='contact-info-description'>+58 (021)356 587 235</p>
-              </div>
-            </div>
-          </div>
 
-
+</div>
         </div>    
       </div>
     );

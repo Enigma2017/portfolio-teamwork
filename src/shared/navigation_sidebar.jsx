@@ -9,7 +9,6 @@ import { ContactsIcon } from "./icons/ContactsIcon";
 
 export const NavigationSidebar = () => {
   const [darkMode, setDarkMode] = useState(false);
-  const [isActive, setIsActive] = useState(true);
 
   const darkModeToggle = () => {
     setDarkMode(!darkMode);
@@ -17,56 +16,27 @@ export const NavigationSidebar = () => {
 
   return (
     <div className="navigation">
-      <div className="navigation-toggle">
+      <div  data-tooltip="Switch Theme" data-flow="top" className="navigation-toggle">
         <ContrastIcon darkMode = { darkMode } onClick = { darkModeToggle }/>
       </div>
       <nav className="navigation-menu">
         <ul className="navigation-list">
-          <li 
-              className={isActive ? 'active' : ''}
-              onMouseEnter={() => setIsActive(false)} 
-              onMouseLeave={() => setIsActive(true)}
-              data-tooltip="Home" data-flow="top">
+          <li data-tooltip="Home" data-flow="top">
                 <a><HomeIcon /></a>
           </li>
-          <li
-              className={isActive ? '' : ''}
-              onMouseEnter={() => setIsActive(false)} 
-              onMouseLeave={() => setIsActive(true)}
-              data-tooltip="Services" 
-              data-flow="top">
+          <li data-tooltip="Services" data-flow="top">
                 <a><ServicesIcon /></a>
           </li>
-          <li 
-              className={isActive ? '' : ''}
-              onMouseEnter={() => setIsActive(false)} 
-              onMouseLeave={() => setIsActive(true)}
-              data-tooltip="CV" 
-              data-flow="top">
+          <li data-tooltip="CV" data-flow="top">
                 <a><CvIcon /></a>
           </li>
-          <li 
-              className={isActive ? '' : ''}
-              onMouseEnter={() => setIsActive(false)} 
-              onMouseLeave={() => setIsActive(true)}
-              data-tooltip="Portfolio" 
-              data-flow="top">
+          <li data-tooltip="Portfolio" data-flow="top">
             <a><PortfolioIcon /></a>
           </li>
-          <li 
-              className={isActive ? '' : ''}
-              onMouseEnter={() => setIsActive(false)} 
-              onMouseLeave={() => setIsActive(true)}
-              data-tooltip="Blog" 
-              data-flow="top">
+          <li data-tooltip="Blog" data-flow="top">
             <a><BlogIcon /></a>
           </li>
-          <li 
-              className={isActive ? '' : ''}
-              onMouseEnter={() => setIsActive(false)} 
-              onMouseLeave={() => setIsActive(true)}
-              data-tooltip="Contacts" 
-              data-flow="top">
+          <li data-tooltip="Contacts" data-flow="top">
             <a><ContactsIcon /></a>
           </li>
         </ul>

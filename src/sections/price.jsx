@@ -1,5 +1,7 @@
-function Price() {
+import React, { useState } from 'react';
 
+
+function Price() {
     return (
       <div className="price">
           <div className="price__title">
