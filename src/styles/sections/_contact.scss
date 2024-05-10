@@ -1,6 +1,10 @@
 .contact {
   display: flex;
   justify-content: space-between;
+  @include desktop-small {
+    flex-direction: column;
+    gap: 30px;
+  }
 }
 .contact-all-info-block {
   display: flex;
@@ -16,9 +20,23 @@
   color: var(--main-txt);
 
   margin-bottom: 50px;
+
+  @media (max-width: 1300px) {
+    font-size: 25px;
+    margin-bottom: 35px;
+  }
+
+  @include desktop-small {
+    margin-inline: auto;
+    text-align: center;
+    font-size: 32px;
+  }
 }
 .contact-form {
   width: 59%;
+  @include desktop-small {
+    width: 100%;
+  }
 
   form {
     display: flex;
@@ -90,6 +108,13 @@
   display: flex;
   flex-direction: column;
   // height: 788px;
+  @include desktop-small {
+    margin-inline: auto;
+    width: 100%;
+  }
+  @include tablet {
+    width: 100%;
+  }
 }
 
 .contact-info-image-block {
@@ -118,7 +143,6 @@
     font-size: 18px;
     line-height: 124%;
     text-transform: capitalize;
-    color: var(--secondary-txt);
   }
   .contact-info-description {
     font-family: var(--font-family);
@@ -127,6 +151,12 @@
     line-height: 160%;
     text-transform: capitalize;
     text-align: right;
+
+    color: #767676;
+
+    @media (max-width: 1300px) {
+      font-size: 14px;
+    }
     color: var(--secondary-txt);
   }
 }
