@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-import NavigationSidebar from './shared/navigation_sidebar'
 import InfoSidebar from './shared/info_sidebar'
+import { NavigationSidebar } from './shared/navigation_sidebar'
 
 import Hero from './sections/hero'
 import Service from './sections/services'
@@ -38,7 +38,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Footer />
       </main>
       <nav>
-          <NavigationSidebar/>
+        <NavigationSidebar/>
       </nav>
     </div>
   </React.StrictMode>,
