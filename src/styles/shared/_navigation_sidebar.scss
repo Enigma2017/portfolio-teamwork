@@ -1,3 +1,7 @@
+body.dark .navigation-toggle{
+  color: var(--highlight);
+}
+
 .navigation {
   position: fixed;
   right: 0;
@@ -8,12 +12,17 @@
   width: 108rem;
 
   &-toggle{
-    width: fit-content;
     margin: 50rem auto;
+    display: block;
+    outline: none;
+    border: none;
     cursor: pointer;
+    background: transparent;
+
     &:hover{
       color: var(--highlight);
     }
+
   }
 
   &-menu{
@@ -40,7 +49,7 @@
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
       -o-border-radius: 50%;
-      background-color: var(--main-bg);
+      background-color: var(--input-bg);
 
       &.active{
         background-color: var(--highlight);
@@ -96,7 +105,7 @@
   padding: 6px 8px;
   border-radius: 3px;
   background: #333333;
-  color: var(--card-bg);
+  color: #fff;
   z-index: 100;
 }
 [data-tooltip]:hover::before,
@@ -111,7 +120,7 @@
 [data-tooltip][data-flow^="top"]::before {
   bottom: 100%;
   border-bottom-width: 0;
-  border-top-color: var(--main-txt);
+  border-top-color: #333333;
 }
 [data-tooltip]:not([data-flow])::after,
 [data-tooltip][data-flow^="top"]::after {
@@ -209,4 +218,3 @@
 .active[data-tooltip][data-flow^="right"]::after {
   animation: tooltip-horz .5s ease-out forwards;
 }
-
