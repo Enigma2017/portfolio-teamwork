@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 export default function ProgressLine({ title, percentage }) {
   return (
     <>
@@ -11,3 +13,7 @@ export default function ProgressLine({ title, percentage }) {
     </>
   );
 }
+ProgressLine.propTypes = {
+  title: PropTypes.string.isRequired,
+  percentage: PropTypes.number.isRequired,
+};

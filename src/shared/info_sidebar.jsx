@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import DribbbleIcon from "./icons/DribbbleIcon";
 import FacebookIcon from "./icons/FacebookIcon";
 import InstagramIcon from "./icons/InstagramIcon";
@@ -11,20 +10,30 @@ import DownloadIcon from "./icons/DownloadIcon";
 
 function InfoSidebar() {
   const isOnline = true;
-  const [isDownloading, setIsDownloading] = useState(false);
 
   const handleDownload = () => {
-    setIsDownloading(true);
-    setTimeout(() => {
-      setIsDownloading(false);
-      const fileNotFound = Math.random() < 0.5;
-      if (fileNotFound) {
-        alert("File not found. Please try again later.");
-      } else {
-        const cvUrl = "/cv.pdf";
-        window.open(cvUrl, "_blank");
-      }
-    }, 500);
+    const cvUrl = "/cv.pdf";
+
+    fetch(cvUrl)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Failed to download file");
+        }
+        return response.blob();
+      })
+      .then((blob) => {
+        const url = window.URL.createObjectURL(new Blob([blob]));
+        const link = document.createElement("a");
+        link.href = url;
+        link.setAttribute("download", "Rayan Adlardard CV.pdf");
+        document.body.appendChild(link);
+        link.click();
+        link.parentNode.removeChild(link);
+      })
+      .catch((error) => {
+        console.error("Error downloading file:", error);
+        alert("Error downloading file. Please try again later.");
+      });
   };
 
   return (
@@ -109,7 +118,7 @@ function InfoSidebar() {
         </div>
       </div>
       <button className="download-cv-btn" onClick={handleDownload}>
-        {isDownloading ? "Downloading..." : "Download CV"} <DownloadIcon />
+        Download CV <DownloadIcon />
       </button>
     </div>
   );
