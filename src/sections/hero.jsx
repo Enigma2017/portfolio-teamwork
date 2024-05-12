@@ -17,17 +17,17 @@ function Hero() {
         </button>
         <div className="circle-yellow-top">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="8" cy="8" r="7" stroke="#FFB400" stroke-opacity="0.8" stroke-width="2" />
+            <circle cx="8" cy="8" r="7" stroke="#FFB400" stroke-opacity="0.8" strokeWidth="2" />
           </svg>
         </div>
         <div className="square-blue-bottom">
           <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="10" y="10" width="14" height="14" stroke="#0047ff" stroke-opacity="0.8" stroke-width="2"/>
+            <rect x="10" y="10" width="14" height="14" stroke="#0047ff" stroke-opacity="0.8" strokeWidth="2"/>
           </svg>
         </div>
         <div className="circle-green-bottom">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="8" cy="8" r="7" stroke="#05FF00" stroke-opacity="0.8" stroke-width="2" />
+            <circle cx="8" cy="8" r="7" stroke="#05FF00" stroke-opacity="0.8" strokeWidth="2" />
           </svg>
         </div>
       </div>
@@ -35,22 +35,22 @@ function Hero() {
         <img src="/src/assets/img/hero.png" alt="hero" />
         <div className="circle-green-top">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="8" cy="8" r="7" stroke="#05FF00" stroke-opacity="0.8" stroke-width="2" />
+            <circle cx="8" cy="8" r="7" stroke="#05FF00" stroke-opacity="0.8" strokeWidth="2" />
           </svg>
         </div>
         <div className="square-yellow-top">
           <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="10" y="10" width="14" height="14" stroke="#ffb400" stroke-opacity="0.8" stroke-width="2"/>
+            <rect x="10" y="10" width="14" height="14" stroke="#ffb400" stroke-opacity="0.8" strokeWidth="2"/>
           </svg>
         </div>
         <div className="triangle-red-bottom">
           <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M1.80385 11L7 2L12.1962 11H1.80385Z" stroke="#FF2E00" stroke-opacity="0.8" stroke-width="2" />
+            <path d="M1.80385 11L7 2L12.1962 11H1.80385Z" stroke="#FF2E00" stroke-opacity="0.8" strokeWidth="2" />
           </svg>
         </div>
         <div className="circle-yellow-bottom">
           <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="8.86133" cy="8.96387" r="7" stroke="#FFB400" stroke-opacity="0.8" stroke-width="2" />
+            <circle cx="8.86133" cy="8.96387" r="7" stroke="#FFB400" stroke-opacity="0.8" strokeWidth="2" />
           </svg>
         </div>
       </div>
