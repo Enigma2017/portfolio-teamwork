@@ -34,6 +34,9 @@
         text-transform: capitalize;
         color: var(--main-txt);
         font-family: var(--font-family);
+        @include tablet{
+            gap: 25px;
+        }
     }
     &__category{
         transition: all .2s ease-in-out;
@@ -48,7 +51,7 @@
         display: grid;
         grid-template-columns: repeat(auto-fill, 310px);
         gap: 20rem;
-
+        justify-content: center;
         @include mobile {
             margin-top: 30rem;
             grid-template-columns: 1fr;
