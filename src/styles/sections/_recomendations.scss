@@ -4,15 +4,22 @@
         margin-top: 70px;
         margin-bottom: 70px;
         max-width: 970px;
+        @include tablet-small{
+            margin-top: 35px;
+            margin-bottom: 35px;
+        }
     }
     &__main-title{
         font-weight: 700;
         font-size: 32px;
         line-height: 124%;
         text-transform: capitalize;
-        color: #2b2b2b;
+        color: var(--main-txt);
         margin-bottom: 25px;
         text-align: center;
+        @include tablet-small{
+            font-size: 25px;
+        }
     }
     &__main-desc{
         display: flex;
@@ -24,20 +31,36 @@
         line-height: 160%;
         text-transform: capitalize;
         text-align: center;
-        color: #767676;
+        color: var(--secondary-txt);
         max-width: 438px;
         margin-bottom: 50px;
+        @include tablet-small{
+            font-size: 12px;
+            margin-bottom: 30px;
+        }
     }
     &__container{
         display: flex;
         justify-content: center;
         gap: 27px;
+        @include desktop-small{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        @include tablet{
+            display: grid;
+            grid-template-columns: auto;
+        }
     }
     &__block{
         max-width: 310px;
-        background: #fff;
+        background: var(--main-bg);
         padding: 25px 23px 25px 25px;
         margin-bottom: 50px;
+        @include tablet-small{
+            margin-bottom: 20px;
+            padding: 10px;
+        }
     }
     &__stars{
         max-width: 130px;
@@ -51,16 +74,22 @@
         font-size: 18px;
         line-height: 124%;
         text-transform: capitalize;
-        color: #2b2b2b;
+        color: var(--main-txt);
         margin-bottom: 18px;
+        @include tablet-small{
+            font-size: 16px;
+        }
     }
     &__block-desc{
         font-weight: 400;
         font-size: 15px;
         line-height: 160%;
         text-transform: capitalize;
-        color: #767676;
+        color: var(--secondary-txt);
         margin-bottom: 30px;
+        @include tablet-small{
+            font-size: 12px;
+        }
     }
     &__character{
         display: flex;
@@ -73,7 +102,7 @@
         font-size: 18px;
         line-height: 124%;
         text-transform: capitalize;
-        color: #2b2b2b;
+        color: var(--main-txt);
         margin-bottom: 5px;
     }
     &__character-profession{
@@ -81,7 +110,10 @@
         font-size: 15px;
         line-height: 160%;
         text-transform: capitalize;
-        color: #767676;
+        color: var(--secondary-txt);
+        @include tablet-small{
+            font-size: 12px;
+        }
     }
     &__footer{
         display: flex;
@@ -92,6 +124,6 @@
         width: 10px;
         height: 10px;
         border-radius: 50%;
-        background-color: #ffb400;
+        background-color: var(--highlight);
     }
 }
