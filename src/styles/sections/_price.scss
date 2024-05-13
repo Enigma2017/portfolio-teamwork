@@ -28,6 +28,9 @@
     &__cards {
         display: flex;
         gap: 21px;
+        @media screen and (max-width:840px) {
+            flex-direction: column;
+        }
         &__card {
             &.popular {
                 padding: 25px 24px 25px 31px;
