@@ -28,7 +28,7 @@
     &__cards {
         display: flex;
         gap: 21px;
-        @media screen and (max-width:840px) {
+        @media screen and (max-width:1166px) {
             flex-direction: column;
         }
         &__card {
