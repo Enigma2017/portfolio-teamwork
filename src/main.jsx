@@ -26,8 +26,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       </div>
       <main>
         <Hero />
-        {/*<Service />
-        <Price />*/}
+        <Service />
+        <Price />
         <Recommendations />
         <Education />
         <Work />
