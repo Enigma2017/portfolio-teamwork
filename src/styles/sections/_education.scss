@@ -8,6 +8,7 @@
     grid-template-columns: 1fr 2fr;
     background: var(--main-bg);
     padding: 30rem;
+    gap: 10px;
 
     @include tablet-small {
         grid-template-columns: 1fr;
