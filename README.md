@@ -1,8 +1,8 @@
-# React + Vite
+# LS-27
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Already deployed on GitHub pages
 
-Currently, two official plugins are available:
+Links
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- https://protypes.github.io/LS-27/ - for site access 
+- Figma: https://www.figma.com/file/UIvMbLEQ9W3ePJIVSVMkMq/Portfolio-Template-%7C-Resume-Template-(Community)?type=design&node-id=2%3A447&mode=design&t=5OJqYNj96mCdexAR-1
