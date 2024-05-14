@@ -39,22 +39,22 @@ export const NavigationSidebar = () => {
       <nav className="navigation-menu">
         <ul className="navigation-list">
           <li data-tooltip="Home" data-flow="top">
-                <a><HomeIcon /></a>
+                <a href="#home"><HomeIcon /></a>
           </li>
           <li data-tooltip="Services" data-flow="top">
-                <a><ServicesIcon /></a>
+                <a href="#services"><ServicesIcon /></a>
           </li>
-          <li data-tooltip="CV" data-flow="top">
-                <a><CvIcon /></a>
+          <li data-tooltip="Education" data-flow="top">
+                <a href="#CV"><CvIcon /></a>
           </li>
           <li data-tooltip="Portfolio" data-flow="top">
-            <a><PortfolioIcon /></a>
+            <a href="#portfolio"><PortfolioIcon /></a>
           </li>
           <li data-tooltip="Blog" data-flow="top">
-            <a><BlogIcon /></a>
+            <a href="#blog"><BlogIcon /></a>
           </li>
           <li data-tooltip="Contacts" data-flow="top">
-            <a><ContactsIcon /></a>
+            <a href="#contact"><ContactsIcon /></a>
           </li>
         </ul>
       </nav>

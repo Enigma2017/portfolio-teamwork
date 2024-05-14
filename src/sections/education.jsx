@@ -1,7 +1,7 @@
 function Education() {
 
     return (
-      <section className="education">
+      <section className="education" id="CV">
         <div className="title">Education</div>
         <div className="desc">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
