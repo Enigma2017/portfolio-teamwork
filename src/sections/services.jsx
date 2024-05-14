@@ -8,7 +8,7 @@ import DevelopmentIcon from "../styles/shared/icons/DevelopmentIcon";
 
 function Services() {
   return (
-    <section className="services">
+    <section className="services" id="services">
       <h2 className="services__title">My Services</h2>
       <p className="services__desc">
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet

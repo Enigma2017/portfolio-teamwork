@@ -3,7 +3,7 @@ import { Arrow } from "../../public/blog/Arrow";
 function Blog() {
 
   return (
-    <div className="blog">
+    <div className="blog" id="blog">
       <div className="blog__title">Blog</div>
       <div className="blog__desc">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</div>
       <div className="blog__items">

@@ -1,7 +1,7 @@
 function Portfolio() {
 
     return (
-      <section className="portfolio">
+      <section className="portfolio" id="portfolio">
         <h1 className="portfolio__title title">Portfolio</h1>
         <p className="portfolio__desc desc">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
         <ul className="portfolio__categories">

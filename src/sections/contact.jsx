@@ -6,7 +6,7 @@ import Ellipse from '/contact-ellipse.svg'
 function Contact() {
 
     return (
-      <div className="contact">
+      <div className="contact" id='contact'>
         <div className="contact-form">
           <p className='contact-titles'>Leave us your info</p>
           <form action="#" method="get">
