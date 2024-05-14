@@ -8,6 +8,7 @@ import YoutubeIcon from "./icons/YoutubeIcon";
 import ProgressLine from "./progress-line";
 import DownloadIcon from "./icons/DownloadIcon";
 import { useState } from "react"; 
+import ProfilePic from '/assets/img/sidebar-info/profile.png';
 
 function InfoSidebar() {
   const isOnline = true;
@@ -69,7 +70,7 @@ function InfoSidebar() {
       </button> }
       <div className="info-sidebar-menu" style={hideOrShow}>
         <div className="info-sidebar__img">
-          <img src="/src/assets/img/sidebar-info/profile.png" alt="User" />
+          <img src={ProfilePic} alt="User" />
           {isOnline && <div className="online-dot"></div>}
         </div>
         <h2 className="info-sidebar__name">Rayan Adlardard</h2>
@@ -153,7 +154,7 @@ function InfoSidebar() {
       </div>
       <div className="info-sidebar">
         <div className="info-sidebar__img">
-          <img src="/src/assets/img/sidebar-info/profile.png" alt="User" />
+          <img src={ProfilePic} alt="User" />
           {isOnline && <div className="online-dot"></div>}
         </div>
         <h2 className="info-sidebar__name">Rayan Adlardard</h2>

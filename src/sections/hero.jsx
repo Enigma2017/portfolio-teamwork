@@ -1,3 +1,4 @@
+import HeroImg from '/assets/img/hero.png';
 
 function Hero() {
   return (
@@ -32,7 +33,7 @@ function Hero() {
         </div>
       </div>
       <div className="hero__image">
-        <img src="/src/assets/img/hero.png" alt="hero" />
+        <img src={HeroImg} alt="hero" />
         <div className="circle-green-top">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="8" cy="8" r="7" stroke="#05FF00" stroke-opacity="0.8" strokeWidth="2" />

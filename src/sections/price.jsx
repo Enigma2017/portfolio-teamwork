@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-
+import PriceCheck from '/price/price-check.svg';
+import PriceCross from '/price/price-cross.svg';
 
 function Price() {
     return (
@@ -22,35 +23,35 @@ function Price() {
                 optimize web queries</p>
                 <ul className="price__cards__card__perks">
                   <li className="price__cards__card__perks__included">
-                      <img src="../../public/price/price-check.svg" alt="price-check" />
+                      <img src={PriceCheck} alt="price-check" />
                       UI Design
                   </li>
                   <li className="price__cards__card__perks__included">
-                      <img src="../../public/price/price-check.svg" alt="price-check" />
+                      <img src={PriceCheck} alt="price-check" />
                       Web Development
                   </li>
                   <li className="price__cards__card__perks__non-included">
-                      <img src="../../public/price/price-cross.svg" alt="price-cross" />
+                      <img src={PriceCross} alt="price-cross" />
                       Logo Design
                   </li>
                   <li className="price__cards__card__perks__non-included">
-                      <img src="../../public/price/price-cross.svg" alt="price-cross" />
+                      <img src={PriceCross} alt="price-cross" />
                      Seo Optimization
                   </li>
                   <li className="price__cards__card__perks__non-included">
-                      <img src="../../public/price/price-cross.svg" alt="price-cross" />
+                      <img src={PriceCross} alt="price-cross" />
                       WordPress Integration
                   </li>
                   <li className="price__cards__card__perks__non-included">
-                      <img src="../../public/price/price-cross.svg" alt="price-cross" />
+                      <img src={PriceCross} alt="price-cross" />
                       5 Websites
                   </li>
                   <li className="price__cards__card__perks__non-included">
-                      <img src="../../public/price/price-cross.svg" alt="price-cross" />
+                      <img src={PriceCross} alt="price-cross" />
                       Unlimited User
                   </li>
                   <li className="price__cards__card__perks__non-included">
-                      <img src="../../public/price/price-cross.svg" alt="price-cross" />
+                      <img src={PriceCross} alt="price-cross" />
                       20 GB Bandwith
                   </li>
                 </ul>
@@ -66,35 +67,35 @@ function Price() {
                 optimize web queries</p>
                 <ul className="price__cards__card__perks">
                   <li className="price__cards__card__perks__included">
-                      <img src="../../public/price/price-check.svg" alt="price-check" />
+                      <img src={PriceCheck} alt="price-check" />
                       UI Design
                   </li>
                   <li className="price__cards__card__perks__included">
-                      <img src="../../public/price/price-check.svg" alt="price-check" />
+                      <img src={PriceCheck} alt="price-check" />
                       Web Development
                   </li>
                   <li className="price__cards__card__perks__included">
-                      <img src="../../public/price/price-check.svg" alt="price-check" />
+                      <img src={PriceCheck} alt="price-check" />
                       Logo Design
                   </li>
                   <li className="price__cards__card__perks__included">
-                      <img src="../../public/price/price-check.svg" alt="price-check" />
+                      <img src={PriceCheck} alt="price-check" />
                       Seo Optimization
                   </li>
                   <li className="price__cards__card__perks__non-included">
-                      <img src="../../public/price/price-cross.svg" alt="price-cross" />
+                      <img src={PriceCross} alt="price-cross" />
                       WordPress Integration
                   </li>
                   <li className="price__cards__card__perks__non-included">
-                      <img src="../../public/price/price-cross.svg" alt="price-cross" />
+                      <img src={PriceCross} alt="price-cross" />
                       5 Websites
                   </li>
                   <li className="price__cards__card__perks__non-included">
-                      <img src="../../public/price/price-cross.svg" alt="price-cross" />
+                      <img src={PriceCross} alt="price-cross" />
                       Unlimited User
                   </li>
                   <li className="price__cards__card__perks__non-included">
-                      <img src="../../public/price/price-cross.svg" alt="price-cross" />
+                      <img src={PriceCross} alt="price-cross" />
                       20 GB Bandwith
                   </li>
                 </ul>
@@ -109,35 +110,35 @@ function Price() {
                 optimize web queries</p>
                 <ul className="price__cards__card__perks">
                   <li className="price__cards__card__perks__included">
-                      <img src="../../public/price/price-check.svg" alt="price-check" />
+                      <img src={PriceCheck} alt="price-check" />
                       UI Design
                   </li>
                   <li className="price__cards__card__perks__included">
-                      <img src="../../public/price/price-check.svg" alt="price-check" />
+                      <img src={PriceCheck} alt="price-check" />
                       Web Development
                   </li>
                   <li className="price__cards__card__perks__included">
-                      <img src="../../public/price/price-check.svg" alt="price-check" />
+                      <img src={PriceCheck} alt="price-check" />
                       Logo Design
                   </li>
                   <li className="price__cards__card__perks__included">
-                      <img src="../../public/price/price-check.svg" alt="price-check" />
+                      <img src={PriceCheck} alt="price-check" />
                      Seo Optimization
                   </li>
                   <li className="price__cards__card__perks__included">
-                      <img src="../../public/price/price-check.svg" alt="price-check" />
+                      <img src={PriceCheck} alt="price-check" />
                       WordPress Integration
                   </li>
                   <li className="price__cards__card__perks__included">
-                      <img src="../../public/price/price-check.svg" alt="price-check" />
+                      <img src={PriceCheck} alt="price-check" />
                       5 Websites
                   </li>
                   <li className="price__cards__card__perks__included">
-                      <img src="../../public/price/price-check.svg" alt="price-check" />
+                      <img src={PriceCheck} alt="price-check" />
                       Unlimited User
                   </li>
                   <li className="price__cards__card__perks__included">
-                      <img src="../../public/price/price-check.svg" alt="price-check" />
+                      <img src={PriceCheck} alt="price-check" />
                       20 GB Bandwith
                   </li>
                 </ul>

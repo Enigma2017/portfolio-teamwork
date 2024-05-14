@@ -1,12 +1,17 @@
+import garage from '/footer/garage.svg';
+import station from '/footer/station.svg';
+import petroleum from '/footer/petroleum.svg';
+import station2 from '/footer/station2.svg';
+
 function Footer() {
 
   return (
     <div className="footer">
       <div className="footer__logos">
-        <a href="/"><img src="public/footer/petroleum.svg" alt="logo petroleum" /></a>
-        <a href="/"><img src="public/footer/station.svg" alt="logo station" /></a>
-        <a href="/"><img src="public/footer/garage.svg" alt="logo garage" /></a>
-        <a href="/"><img src="public/footer/station2.svg" alt="logo station2" /></a>
+        <a href="/"><img src={petroleum} alt="logo petroleum" /></a>
+        <a href="/"><img src={station} alt="logo station" /></a>
+        <a href="/"><img src={garage} alt="logo garage" /></a>
+        <a href="/"><img src={station2} alt="logo station2" /></a>
       </div>
 
       <div className="footer__copyright">

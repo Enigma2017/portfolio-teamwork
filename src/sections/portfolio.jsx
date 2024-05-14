@@ -1,3 +1,14 @@
+import Agency from '/assets/img/portfolio/Agency.png';
+import BritishAgency from '/assets/img/portfolio/BritishAgency.png';
+import Business from '/assets/img/portfolio/Business.png';
+import Folder from '/assets/img/portfolio/Folder.png';
+import GraphicDesigner from '/assets/img/portfolio/GraphicDesigner.png';
+import Laptop from '/assets/img/portfolio/Laptop.png';
+import Mockup from '/assets/img/portfolio/Mockup.png';
+import Restaurant from '/assets/img/portfolio/Restaurant.png';
+import UIDesigner from '/assets/img/portfolio/UIDesigner.png';
+
+
 function Portfolio() {
 
     return (
@@ -13,39 +24,39 @@ function Portfolio() {
         </ul>
         <div className="portfolio__items">
           <div className="portfolio__item">
-            <img src="/src/assets/img/portfolio/Laptop.png" alt="" />
+            <img src={Laptop} alt="Laptop" />
             <div className="portfolio__item__hover-plus">+</div>
           </div>
           <div className="portfolio__item">
-            <img src="/src/assets/img/portfolio/UIDesigner.png" alt="" />
+            <img src={UIDesigner} altUIDesigner />
             <div className="portfolio__item__hover-plus">+</div>
           </div>
           <div className="portfolio__item">
-            <img src="/src/assets/img/portfolio/Agency.png" alt="" />
+            <img src={Agency} alt="Agency" />
             <div className="portfolio__item__hover-plus">+</div>
           </div>
           <div className="portfolio__item">
-            <img src="/src/assets/img/portfolio/Restaurant.png" alt="" />
+            <img src={Restaurant} alt="Restaurant" />
             <div className="portfolio__item__hover-plus">+</div>
           </div>
           <div className="portfolio__item">
-            <img src="/src/assets/img/portfolio/Folder.png" alt="" />
+            <img src={Folder} alt="Folder" />
             <div className="portfolio__item__hover-plus">+</div>
           </div>
           <div className="portfolio__item">
-            <img src="/src/assets/img/portfolio/GraphicDesigner.png" alt="" />
+            <img src={GraphicDesigner} alt="GraphicDesigner" />
             <div className="portfolio__item__hover-plus">+</div>
           </div>
           <div className="portfolio__item">
-            <img src="/src/assets/img/portfolio/Mockup.png" alt="" />
+            <img src={Mockup} alt="Mockup" />
             <div className="portfolio__item__hover-plus">+</div>
           </div>
           <div className="portfolio__item">
-            <img src="/src/assets/img/portfolio/Business.png" alt="" />
+            <img src={Business} alt="Business" />
             <div className="portfolio__item__hover-plus">+</div>
           </div>
           <div className="portfolio__item">
-            <img src="/src/assets/img/portfolio/BritishAgency.png" alt="" />
+            <img src={BritishAgency} alt="BritishAgency" />
             <div className="portfolio__item__hover-plus">+</div>
           </div>
         </div>
