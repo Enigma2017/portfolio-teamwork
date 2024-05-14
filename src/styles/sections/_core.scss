@@ -12,3 +12,10 @@ main {
     padding-left: 305px;
     padding-right: 105px;
 }
+
+@media screen and (max-width: 1115px) {
+    .container {
+        padding-left: 85px;
+    }
+
+}
